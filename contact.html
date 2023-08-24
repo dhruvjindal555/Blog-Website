@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <link rel="icon" href="img/logo.png">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="mid">
+            <img src="img/logo.png" alt="">
+            <ul>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <form action="/search.html" method="get">
+                <input type="text" placeholder="Search Articles">
+                <button class="searchBtn"><img src="img/search.png" alt=""></button>
+            </form>
+        </div>
+    </nav>
+    <hr>
+    <div class="contactForm">
+
+        <form action="" class="formItems">
+            <h1>Contact Us</h1>
+            <input type="text" id="name" placeholder="Enter your name">
+            <input type="text" id="phone" placeholder="Enter your phone">
+            <input type="text" id="email" placeholder="Enter your email">
+            <input type="text" id="address" placeholder="Enter your address">
+            <textarea name="moreAbout" id="" cols="30" rows="10" placeholder="How can we help you?"></textarea>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    <footer class="footer">
+        <div>Copyright&copy myblog.com</div>
+    </footer>
+</body>
+
+</html>

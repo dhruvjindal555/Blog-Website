@@ -1,0 +1,46 @@
+.blogSection{
+    text-align: center;
+    background-color: rgb(253, 248, 243);
+    margin: 1rem;
+}
+
+
+.img{
+    background: url("img/1.png") center center/cover;
+    width: 70vw;
+    height: 20vw;
+    margin: 40px;
+}
+.authorInfo{
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    margin: 10px;
+}
+.authorInfo i{
+    margin: 5px;
+}
+.authorInfo p{
+    font-weight: normal;
+}
+.articles{
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-around;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+}
+.items>div{
+    text-align: center;
+}
+@media only screen and (max-width:450px) {
+    .articles{
+        flex-direction: column;
+    }
+    .authorInfo{
+        flex-direction: column;
+    }
+}
+
